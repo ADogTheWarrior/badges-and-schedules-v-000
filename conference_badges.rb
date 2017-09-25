@@ -24,8 +24,8 @@ def printer(name_array)
   badge_array.each do |badge|
     puts badge
   end
-  
-  room_array = assign_rooms(name_array).first
+
+  room_array = assign_rooms(name_array)
   room_array.each do |room|
     puts room
   end
